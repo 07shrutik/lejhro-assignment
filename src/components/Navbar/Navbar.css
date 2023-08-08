@@ -1,0 +1,124 @@
+.navbar{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  margin: 0;
+  padding: 0;
+    background-color: #d6932c;
+    width: 100%;
+  }
+  .custom-navbar{
+
+    padding: 30px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+  .colorized-logo {
+    filter: invert(20%) sepia(100%) saturate(400%) hue-rotate(180deg);
+  }
+.pages{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.pages li{
+  list-style: none;
+  font-weight: 600;
+  color: white;
+}
+.pages li:hover{
+  color: rgb(231, 214, 189);
+  cursor: pointer;
+}
+.image{
+  height: 30px;
+  width: 235px;
+}
+nav p{
+  color: white;
+  margin-top: 100px;
+  font-size: 3rem;
+  margin-left: 10px;
+}
+.sidelist{
+  color: #3a3632;
+    font-size: 20px!important;
+    font-weight: 700!important;
+}
+.icon:hover{
+  cursor: pointer;
+  color: rgb(35, 134, 221);;
+}
+.sideIcons{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.sidelist:hover{
+  cursor: pointer;
+    color: rgb(35, 134, 221);;
+}
+.secondcustom-navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  height: 80px;
+  background-color: white;
+  padding-left: 180px;
+  padding-right: 180px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add the box shadow */
+  z-index: 1000;
+}
+
+.button-label{
+  font-size: 16px;
+  cursor: pointer;
+  color: #2c7fbf;
+  font-weight: 700;
+  margin-left: 10px;
+}
+@media (max-width: 992px){
+  .custom-navbar{
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .secondcustom-navbar{
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+
+  .pages{
+    display: none;
+  }
+}
+
+@media (max-width: 700px){
+  .custom-navbar{
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .secondcustom-navbar{
+    
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .button-label{
+    display: none;
+  }
+  .image{
+    height: 20px;
+    width: 150px;
+  }
+  nav p{
+    font-size: 36px;
+  }
+}

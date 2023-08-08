@@ -1,0 +1,24 @@
+
+.blogcontent{
+    background-color: rgb(240, 239, 239);
+    padding: 5.305vh 11.393vw!important;
+}
+.blog{
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+}
+.blockQuote{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Inter,sans-serif;
+}
+h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Inter,sans-serif;
+}
+p b{
+    font-weight: bolder;
+    font-size: 16px;
+}

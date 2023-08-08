@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  padding: 0;
+  margin: 0;
+  height: 280px;
+}
+hr{
+  padding: 0;
+  margin: 0;
+  border: none; 
+  height: 10px; 
+  background-color: #0d82c6; 
+}
+footer{
+  padding: 80px;
+}
+
+.companyRights p{
+  color: #3a3632;
+  font-size: 16px!important;
+  font-weight: 300!important;
+  text-align: center;
+}
+
+.fixed-button {
+  border: 0.5px solid black;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+color: #000;
+  /* border: none; */
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 15px;
+}
